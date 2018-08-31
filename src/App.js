@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button, Menu } from 'semantic-ui-react';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-          This is a code change.
-        </p>
-      </div>
+      <Menu inverted>
+        <Menu.Item name='home'/>
+        <Menu.Item name='Code'/>
+        <Menu.Item name='Art'/>
+        <Menu.Item name='Photography'/>
+        <Menu.Item name='Recipes'/>
+
+      </Menu>
     );
   }
 }
