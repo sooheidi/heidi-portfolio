@@ -15,6 +15,7 @@ class App extends Component {
             <Link to='/' className='item'>Home</Link>
             <Link to='/code' className='item'>Code</Link>
             <Link to='/photography' className='item'>Photography</Link>
+            <Link to='/art' className='item'>Art</Link>
             <Link to='/recipes' className='item'>Recipes</Link>
           </Menu>
           <Route path='/' exact strict render={() =>
