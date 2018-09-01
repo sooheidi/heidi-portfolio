@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Code.css';
+import './main.css';
 
 class Code extends Component {
   render() {
